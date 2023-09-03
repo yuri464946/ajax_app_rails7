@@ -27,7 +27,7 @@ function post (){
       };
       const list = document.getElementById("list");
       const formText = document.getElementById("content");
-      console.log("ok")
+      console.log()
       const item = XHR.response.post;
       const html = `
         <div class="post">
